@@ -1,0 +1,18 @@
+{% load static %}
+{% include "header.html" %}
+        {% include "menu.html" %}
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          {% include "navbar.html" %}
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            {% block content %}
+            
+            {% endblock  %}
+            <!-- / Content -->
+
+{% include "footer.html" %}
